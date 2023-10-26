@@ -2638,3 +2638,38 @@
 [2023-10-26T12:42:47.241+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:47.241+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2023-10-26T12:42:47.251+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:47.251+0000] {dag.py:3696} INFO - Setting next_dagrun for even_odd_example to None, run_after=None
 [2023-10-26T12:42:47.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/task.py took 0.076 seconds
+[2023-10-26T12:43:18.024+0000] {processor.py:157} INFO - Started process (PID=4567) to work on /opt/airflow/dags/task.py
+[2023-10-26T12:43:18.024+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2023-10-26T12:43:18.025+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:18.025+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2023-10-26T12:43:18.042+0000] {processor.py:839} INFO - DAG(s) dict_keys(['even_odd_example']) retrieved from /opt/airflow/dags/task.py
+[2023-10-26T12:43:18.064+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:18.064+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:43:18.074+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:18.073+0000] {dag.py:3696} INFO - Setting next_dagrun for even_odd_example to None, run_after=None
+[2023-10-26T12:43:18.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/task.py took 0.076 seconds
+[2023-10-26T12:43:48.892+0000] {processor.py:157} INFO - Started process (PID=4585) to work on /opt/airflow/dags/task.py
+[2023-10-26T12:43:48.893+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2023-10-26T12:43:48.894+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:48.893+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2023-10-26T12:43:48.918+0000] {processor.py:839} INFO - DAG(s) dict_keys(['even_odd_example']) retrieved from /opt/airflow/dags/task.py
+[2023-10-26T12:43:48.943+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:48.943+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:43:48.955+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:48.955+0000] {dag.py:3696} INFO - Setting next_dagrun for even_odd_example to None, run_after=None
+[2023-10-26T12:43:48.976+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/task.py took 0.087 seconds
+[2023-10-26T12:44:19.405+0000] {processor.py:157} INFO - Started process (PID=4603) to work on /opt/airflow/dags/task.py
+[2023-10-26T12:44:19.406+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2023-10-26T12:44:19.406+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:19.406+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2023-10-26T12:44:19.423+0000] {processor.py:839} INFO - DAG(s) dict_keys(['even_odd_example']) retrieved from /opt/airflow/dags/task.py
+[2023-10-26T12:44:19.445+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:19.445+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:44:19.455+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:19.454+0000] {dag.py:3696} INFO - Setting next_dagrun for even_odd_example to None, run_after=None
+[2023-10-26T12:44:19.474+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/task.py took 0.072 seconds
+[2023-10-26T12:44:50.281+0000] {processor.py:157} INFO - Started process (PID=4621) to work on /opt/airflow/dags/task.py
+[2023-10-26T12:44:50.282+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2023-10-26T12:44:50.283+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:50.282+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2023-10-26T12:44:50.301+0000] {processor.py:839} INFO - DAG(s) dict_keys(['even_odd_example']) retrieved from /opt/airflow/dags/task.py
+[2023-10-26T12:44:50.324+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:50.324+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:44:50.334+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:50.334+0000] {dag.py:3696} INFO - Setting next_dagrun for even_odd_example to None, run_after=None
+[2023-10-26T12:44:50.351+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/task.py took 0.072 seconds
+[2023-10-26T12:45:21.174+0000] {processor.py:157} INFO - Started process (PID=4639) to work on /opt/airflow/dags/task.py
+[2023-10-26T12:45:21.175+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/task.py for tasks to queue
+[2023-10-26T12:45:21.176+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:45:21.176+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/task.py
+[2023-10-26T12:45:21.193+0000] {processor.py:839} INFO - DAG(s) dict_keys(['even_odd_example']) retrieved from /opt/airflow/dags/task.py
+[2023-10-26T12:45:21.217+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:45:21.217+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:45:21.228+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:45:21.227+0000] {dag.py:3696} INFO - Setting next_dagrun for even_odd_example to None, run_after=None
+[2023-10-26T12:45:21.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/task.py took 0.072 seconds

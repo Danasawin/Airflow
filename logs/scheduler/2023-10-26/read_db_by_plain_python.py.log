@@ -2638,3 +2638,38 @@
 [2023-10-26T12:42:47.300+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:47.300+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2023-10-26T12:42:47.320+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:47.320+0000] {dag.py:3696} INFO - Setting next_dagrun for read_db_by_plain_python to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
 [2023-10-26T12:42:47.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/read_db_by_plain_python.py took 0.152 seconds
+[2023-10-26T12:43:18.016+0000] {processor.py:157} INFO - Started process (PID=4566) to work on /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:43:18.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/read_db_by_plain_python.py for tasks to queue
+[2023-10-26T12:43:18.017+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:18.017+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:43:18.114+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_db_by_plain_python']) retrieved from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:43:18.139+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:18.139+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:43:18.157+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:18.157+0000] {dag.py:3696} INFO - Setting next_dagrun for read_db_by_plain_python to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
+[2023-10-26T12:43:18.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/read_db_by_plain_python.py took 0.165 seconds
+[2023-10-26T12:43:48.883+0000] {processor.py:157} INFO - Started process (PID=4584) to work on /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:43:48.884+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/read_db_by_plain_python.py for tasks to queue
+[2023-10-26T12:43:48.885+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:48.885+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:43:48.983+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_db_by_plain_python']) retrieved from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:43:49.006+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:49.006+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:43:49.027+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:43:49.027+0000] {dag.py:3696} INFO - Setting next_dagrun for read_db_by_plain_python to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
+[2023-10-26T12:43:49.051+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/read_db_by_plain_python.py took 0.171 seconds
+[2023-10-26T12:44:19.398+0000] {processor.py:157} INFO - Started process (PID=4602) to work on /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:44:19.398+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/read_db_by_plain_python.py for tasks to queue
+[2023-10-26T12:44:19.399+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:19.399+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:44:19.485+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_db_by_plain_python']) retrieved from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:44:19.504+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:19.504+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:44:19.521+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:19.521+0000] {dag.py:3696} INFO - Setting next_dagrun for read_db_by_plain_python to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
+[2023-10-26T12:44:19.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/read_db_by_plain_python.py took 0.143 seconds
+[2023-10-26T12:44:50.276+0000] {processor.py:157} INFO - Started process (PID=4620) to work on /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:44:50.277+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/read_db_by_plain_python.py for tasks to queue
+[2023-10-26T12:44:50.279+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:50.278+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:44:50.380+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_db_by_plain_python']) retrieved from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:44:50.399+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:50.399+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:44:50.416+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:44:50.416+0000] {dag.py:3696} INFO - Setting next_dagrun for read_db_by_plain_python to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
+[2023-10-26T12:44:50.435+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/read_db_by_plain_python.py took 0.162 seconds
+[2023-10-26T12:45:21.168+0000] {processor.py:157} INFO - Started process (PID=4638) to work on /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:45:21.169+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/read_db_by_plain_python.py for tasks to queue
+[2023-10-26T12:45:21.170+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:45:21.170+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:45:21.255+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_db_by_plain_python']) retrieved from /opt/airflow/dags/read_db_by_plain_python.py
+[2023-10-26T12:45:21.275+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:45:21.275+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:45:21.294+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:45:21.293+0000] {dag.py:3696} INFO - Setting next_dagrun for read_db_by_plain_python to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
+[2023-10-26T12:45:21.313+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/read_db_by_plain_python.py took 0.148 seconds
