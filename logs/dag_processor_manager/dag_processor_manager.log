@@ -22644,3 +22644,83 @@ File Path                                       PID  Runtime      # DAGs    # Er
 /opt/airflow/dags/read_db_by_plain_python.py                           1           0  0.17s           2023-10-26T12:38:09
 /opt/airflow/dags/task.py                                              1           0  0.09s           2023-10-26T12:38:09
 ================================================================================
+[2023-10-26T12:38:42.348+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/change_datatype.py           4410  0.00s             1           0  0.32s           2023-10-26T12:38:11
+/opt/airflow/dags/my_first_dags.py                                     1           0  0.10s           2023-10-26T12:38:40
+/opt/airflow/dags/read_db_and_save_local.py                            1           0  0.41s           2023-10-26T12:38:37
+/opt/airflow/dags/read_db_by_mysql_hook_1.py                           1           0  0.11s           2023-10-26T12:38:39
+/opt/airflow/dags/read_db_by_plain_python.py                           1           0  0.18s           2023-10-26T12:38:40
+/opt/airflow/dags/task.py                                              1           0  0.09s           2023-10-26T12:38:40
+================================================================================
+[2023-10-26T12:39:13.251+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/change_datatype.py           4428  0.00s             1           0  0.32s           2023-10-26T12:38:42
+/opt/airflow/dags/my_first_dags.py                                     1           0  0.12s           2023-10-26T12:39:11
+/opt/airflow/dags/read_db_and_save_local.py                            1           0  0.33s           2023-10-26T12:39:07
+/opt/airflow/dags/read_db_by_mysql_hook_1.py                           1           0  0.11s           2023-10-26T12:39:10
+/opt/airflow/dags/read_db_by_plain_python.py                           1           0  0.23s           2023-10-26T12:39:11
+/opt/airflow/dags/task.py                                              1           0  0.12s           2023-10-26T12:39:11
+================================================================================
+[2023-10-26T12:39:44.101+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/change_datatype.py           4446  0.00s             1           0  0.31s           2023-10-26T12:39:13
+/opt/airflow/dags/my_first_dags.py                                     1           0  0.10s           2023-10-26T12:39:42
+/opt/airflow/dags/read_db_and_save_local.py                            1           0  0.33s           2023-10-26T12:39:38
+/opt/airflow/dags/read_db_by_mysql_hook_1.py                           1           0  0.10s           2023-10-26T12:39:40
+/opt/airflow/dags/read_db_by_plain_python.py                           1           0  0.19s           2023-10-26T12:39:42
+/opt/airflow/dags/task.py                                              1           0  0.10s           2023-10-26T12:39:41
+================================================================================
+[2023-10-26T12:40:15.010+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/change_datatype.py           4464  0.00s             1           0  0.32s           2023-10-26T12:39:44
+/opt/airflow/dags/my_first_dags.py                                     1           0  0.12s           2023-10-26T12:40:13
+/opt/airflow/dags/read_db_and_save_local.py                            1           0  0.34s           2023-10-26T12:40:09
+/opt/airflow/dags/read_db_by_mysql_hook_1.py                           1           0  0.12s           2023-10-26T12:40:11
+/opt/airflow/dags/read_db_by_plain_python.py                           1           0  0.22s           2023-10-26T12:40:12
+/opt/airflow/dags/task.py                                              1           0  0.12s           2023-10-26T12:40:12
+================================================================================
+[2023-10-26T12:40:45.877+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/change_datatype.py           4482  0.00s             1           0  0.34s           2023-10-26T12:40:15
+/opt/airflow/dags/my_first_dags.py                                     1           0  0.10s           2023-10-26T12:40:43
+/opt/airflow/dags/read_db_and_save_local.py                            1           0  0.34s           2023-10-26T12:40:40
+/opt/airflow/dags/read_db_by_mysql_hook_1.py                           1           0  0.11s           2023-10-26T12:40:42
+/opt/airflow/dags/read_db_by_plain_python.py                           1           0  0.19s           2023-10-26T12:40:43
+/opt/airflow/dags/task.py                                              1           0  0.10s           2023-10-26T12:40:43
+================================================================================
+[2023-10-26T12:41:08.083+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2023-10-26T12:41:08.138+0000] {manager.py:762} INFO - There are 6 files in /opt/airflow/dags
+[2023-10-26T12:41:16.778+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/change_datatype.py           4500  0.00s             1           0  0.35s           2023-10-26T12:40:46
+/opt/airflow/dags/my_first_dags.py                                     1           0  0.09s           2023-10-26T12:41:14
+/opt/airflow/dags/read_db_and_save_local.py                            1           0  0.32s           2023-10-26T12:41:11
+/opt/airflow/dags/read_db_by_mysql_hook_1.py                           1           0  0.11s           2023-10-26T12:41:13
+/opt/airflow/dags/read_db_by_plain_python.py                           1           0  0.19s           2023-10-26T12:41:14
+/opt/airflow/dags/task.py                                              1           0  0.09s           2023-10-26T12:41:14
+================================================================================

@@ -2617,3 +2617,17 @@
 [2023-10-26T12:41:17.058+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:17.057+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2023-10-26T12:41:17.075+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:17.075+0000] {dag.py:3696} INFO - Setting next_dagrun for dataframe_lab1 to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
 [2023-10-26T12:41:17.094+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/change_datatype.py took 0.304 seconds
+[2023-10-26T12:41:47.680+0000] {processor.py:157} INFO - Started process (PID=4518) to work on /opt/airflow/dags/change_datatype.py
+[2023-10-26T12:41:47.681+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/change_datatype.py for tasks to queue
+[2023-10-26T12:41:47.681+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:47.681+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/change_datatype.py
+[2023-10-26T12:41:47.915+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dataframe_lab1']) retrieved from /opt/airflow/dags/change_datatype.py
+[2023-10-26T12:41:47.936+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:47.936+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:41:47.952+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:47.951+0000] {dag.py:3696} INFO - Setting next_dagrun for dataframe_lab1 to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
+[2023-10-26T12:41:47.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/change_datatype.py took 0.292 seconds
+[2023-10-26T12:42:18.536+0000] {processor.py:157} INFO - Started process (PID=4536) to work on /opt/airflow/dags/change_datatype.py
+[2023-10-26T12:42:18.537+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/change_datatype.py for tasks to queue
+[2023-10-26T12:42:18.538+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:18.538+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/change_datatype.py
+[2023-10-26T12:42:18.791+0000] {processor.py:839} INFO - DAG(s) dict_keys(['dataframe_lab1']) retrieved from /opt/airflow/dags/change_datatype.py
+[2023-10-26T12:42:18.813+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:18.813+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:42:18.831+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:18.831+0000] {dag.py:3696} INFO - Setting next_dagrun for dataframe_lab1 to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
+[2023-10-26T12:42:18.854+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/change_datatype.py took 0.322 seconds

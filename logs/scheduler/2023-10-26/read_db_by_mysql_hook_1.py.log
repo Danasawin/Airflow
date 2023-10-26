@@ -2631,3 +2631,17 @@
 [2023-10-26T12:41:13.560+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:13.560+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2023-10-26T12:41:13.577+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:13.577+0000] {dag.py:3696} INFO - Setting next_dagrun for read_db_by_mysql_hook_1 to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
 [2023-10-26T12:41:13.598+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/read_db_by_mysql_hook_1.py took 0.095 seconds
+[2023-10-26T12:41:44.405+0000] {processor.py:157} INFO - Started process (PID=4511) to work on /opt/airflow/dags/read_db_by_mysql_hook_1.py
+[2023-10-26T12:41:44.405+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/read_db_by_mysql_hook_1.py for tasks to queue
+[2023-10-26T12:41:44.406+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:44.406+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/read_db_by_mysql_hook_1.py
+[2023-10-26T12:41:44.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_db_by_mysql_hook_1']) retrieved from /opt/airflow/dags/read_db_by_mysql_hook_1.py
+[2023-10-26T12:41:44.458+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:44.458+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:41:44.476+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:41:44.476+0000] {dag.py:3696} INFO - Setting next_dagrun for read_db_by_mysql_hook_1 to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
+[2023-10-26T12:41:44.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/read_db_by_mysql_hook_1.py took 0.092 seconds
+[2023-10-26T12:42:15.252+0000] {processor.py:157} INFO - Started process (PID=4529) to work on /opt/airflow/dags/read_db_by_mysql_hook_1.py
+[2023-10-26T12:42:15.253+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/read_db_by_mysql_hook_1.py for tasks to queue
+[2023-10-26T12:42:15.254+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:15.253+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/read_db_by_mysql_hook_1.py
+[2023-10-26T12:42:15.282+0000] {processor.py:839} INFO - DAG(s) dict_keys(['read_db_by_mysql_hook_1']) retrieved from /opt/airflow/dags/read_db_by_mysql_hook_1.py
+[2023-10-26T12:42:15.304+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:15.304+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-26T12:42:15.320+0000] {logging_mixin.py:151} INFO - [2023-10-26T12:42:15.320+0000] {dag.py:3696} INFO - Setting next_dagrun for read_db_by_mysql_hook_1 to 2023-10-24T00:00:00+00:00, run_after=2023-10-25T00:00:00+00:00
+[2023-10-26T12:42:15.342+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/read_db_by_mysql_hook_1.py took 0.093 seconds
