@@ -1,0 +1,15 @@
+[2023-10-26T12:16:00.537+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: read_db_and_save_local.read_db scheduled__2023-10-24T00:00:00+00:00 [queued]>
+[2023-10-26T12:16:00.548+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: read_db_and_save_local.read_db scheduled__2023-10-24T00:00:00+00:00 [queued]>
+[2023-10-26T12:16:00.549+0000] {taskinstance.py:1359} INFO - Starting attempt 5 of 5
+[2023-10-26T12:16:00.561+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): read_db> on 2023-10-24 00:00:00+00:00
+[2023-10-26T12:16:00.567+0000] {standard_task_runner.py:57} INFO - Started process 1697 to run task
+[2023-10-26T12:16:00.571+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'read_db_and_save_local', 'read_db', 'scheduled__2023-10-24T00:00:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/read_db_and_save_local.py', '--cfg-path', '/tmp/tmpync2a5vg']
+[2023-10-26T12:16:00.574+0000] {standard_task_runner.py:85} INFO - Job 51: Subtask read_db
+[2023-10-26T12:16:00.618+0000] {task_command.py:415} INFO - Running <TaskInstance: read_db_and_save_local.read_db scheduled__2023-10-24T00:00:00+00:00 [running]> on host 88a410f69adf
+[2023-10-26T12:16:01.044+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='read_db_and_save_local' AIRFLOW_CTX_TASK_ID='read_db' AIRFLOW_CTX_EXECUTION_DATE='2023-10-24T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-24T00:00:00+00:00'
+[2023-10-26T12:16:01.052+0000] {base.py:73} INFO - Using connection ID 'mydb' for task execution.
+[2023-10-26T12:16:01.090+0000] {python.py:194} INFO - Done. Returned value was:         name age
+0  Danasawin  19
+[2023-10-26T12:16:01.194+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=read_db_and_save_local, task_id=read_db, execution_date=20231024T000000, start_date=20231026T121600, end_date=20231026T121601
+[2023-10-26T12:16:01.227+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-26T12:16:01.247+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

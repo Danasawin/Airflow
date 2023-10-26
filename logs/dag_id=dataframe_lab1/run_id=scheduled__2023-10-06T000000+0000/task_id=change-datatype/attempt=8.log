@@ -1,0 +1,13 @@
+[2023-10-07T04:44:20.984+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dataframe_lab1.change-datatype scheduled__2023-10-06T00:00:00+00:00 [queued]>
+[2023-10-07T04:44:20.990+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dataframe_lab1.change-datatype scheduled__2023-10-06T00:00:00+00:00 [queued]>
+[2023-10-07T04:44:20.991+0000] {taskinstance.py:1359} INFO - Starting attempt 8 of 8
+[2023-10-07T04:44:21.004+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): change-datatype> on 2023-10-06 00:00:00+00:00
+[2023-10-07T04:44:21.008+0000] {standard_task_runner.py:57} INFO - Started process 654 to run task
+[2023-10-07T04:44:21.011+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dataframe_lab1', 'change-datatype', 'scheduled__2023-10-06T00:00:00+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/change_datatype.py', '--cfg-path', '/tmp/tmp2bpc7th7']
+[2023-10-07T04:44:21.014+0000] {standard_task_runner.py:85} INFO - Job 126: Subtask change-datatype
+[2023-10-07T04:44:21.058+0000] {task_command.py:415} INFO - Running <TaskInstance: dataframe_lab1.change-datatype scheduled__2023-10-06T00:00:00+00:00 [running]> on host ec1e187156c6
+[2023-10-07T04:44:21.319+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='***@example.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dataframe_lab1' AIRFLOW_CTX_TASK_ID='change-datatype' AIRFLOW_CTX_EXECUTION_DATE='2023-10-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='8' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-06T00:00:00+00:00'
+[2023-10-07T04:44:21.336+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-10-07T04:44:21.343+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=dataframe_lab1, task_id=change-datatype, execution_date=20231006T000000, start_date=20231007T044420, end_date=20231007T044421
+[2023-10-07T04:44:21.386+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-10-07T04:44:21.406+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
